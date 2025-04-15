@@ -20,15 +20,15 @@ bind l "load autosave"
 bind p "map c1a0;bxt_hud_timer 1;bxt_timer_reset;bxt_timer_start;bxt_autorecord run"
 bind o "load aSTART;bxt_hud_timer 1;bxt_timer_reset;bxt_timer_start;bxt_autorecord run"
 bind f1 "gl_texturemode GL_NEAREST_MIPMAP_NEAREST"
-bind f2 "gl_texturemode GL_LINEAR_MIPMAP_LINEAR" 
+bind f2 "gl_texturemode GL_LINEAR_MIPMAP_LINEAR"
 bind c "-duck"
 bind mwheeldown +jump
-default_fov 130 
+default_fov 130
 bxt_hud_jumpspeed 1
 cl_bob 0
-gl_spriteblend 0 
-cl_showfps 1 
-hud_fastswitch 1 
+gl_spriteblend 0
+cl_showfps 1
+hud_fastswitch 1
 gl_texturemode GL_NEAREST_MIPMAP_NEAREST
 load bunnyrace;bxt_hud_timer 1;bxt_timer_reset
 bxt_bhopcap 0
